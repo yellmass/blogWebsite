@@ -9,4 +9,6 @@
     <p><%=post.content.substring(0,100)%>...<a href="/posts/<%=post.title%>">Read More</a></p>
 <%})%>
 
+<button onclick="location.href ='/compose';" class="btn btn-outline-secondary compose-button">Compose</button>
+
 <%-include("partials/footer")-%>
